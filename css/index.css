@@ -96,6 +96,7 @@ header {
     background-repeat: no-repeat;
     justify-content: space-evenly;
     color : white; 
+    text-decoration: none;
 }
 
 header nav {
@@ -103,6 +104,7 @@ header nav {
     justify-content: space-evenly;
     text-align: center;
     height: auto;  
+    text-decoration: none;
 }
 
 header div {

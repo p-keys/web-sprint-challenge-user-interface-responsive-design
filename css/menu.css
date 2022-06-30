@@ -68,14 +68,18 @@ h1, h2, h3, h4, h5, h6, p, a, i {
 
 h1 {
     font-size: 7.5rem;
+    text-align: center;
+    color: white;
 }
 
 h2 {
     font-size: 6rem;
+    text-align: center;
 }
 
 h3 {
     font-size: 5rem;
+    text-align: left-center;
 }
 
 h4 {
@@ -94,6 +98,17 @@ header {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+header div {
+    background-color: rgb(0, 4, 17, .8);
+    height: 25vh;
+}
+
+header nav {
+    display: flex;
+    color : white; 
+    justify-content: space-evenly;
 }
 
 /* spacer */
@@ -118,6 +133,7 @@ header {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    color: white; 
 }
 
 /* footer section */
