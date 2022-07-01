@@ -82,7 +82,19 @@ h3 {
     font-size: 5rem;
 }
 
-p, a {
+p{
+    font-size: 3rem;
+}
+
+li {
+    display: inline-flex;
+    font-size: 50px;
+    margin-bottom: 0;
+    flex-flow: row wrap; 
+}
+
+a {
+    color:white; 
     font-size: 3rem;
 }
 
@@ -109,7 +121,7 @@ header nav {
 
 header div {
     background-color: rgb(0, 4, 17, .8);
-    height : 30vh; 
+    height : 20vh; 
 }
 
 /* spacers */
